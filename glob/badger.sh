@@ -1,10 +1,17 @@
 #!/bin/sh
 
 mkdir 4
-cp -r 1/badger/* 4/
+cp -r 2/* 4/
 echo "Source tree:"
 echo "---------------------------"
 tree
 echo "---------------------------"
-echo "badger/badger/badger/badger"
-cat 3/badger/badger/badger/badger.txt
+echo "BADGER BADGER BADGER BADGER"
+echo "BADGER BADGER BADGER BADGER"
+echo "BADGER BADGER BADGER BADGER"
+cat 3/badger.txt
+echo "BADGER BADGER BADGER BADGER"
+echo "BADGER BADGER BADGER BADGER"
+echo "BADGER BADGER BADGER BADGER"
+cat 1/mushroom/snake.txt
+cat 1/mushroom.txt
